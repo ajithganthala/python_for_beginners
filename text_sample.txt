@@ -1,0 +1,1 @@
+((1, 'Apple', 'apple@fruit.com', 10000), (2, 'Banana', 'anana@longfruit.com.', 8000), (3, 'Carrot', 'carrot@vegan.com', 7200), (4, 'Donut', 'donut@junk.com', 12000))

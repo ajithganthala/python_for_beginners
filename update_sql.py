@@ -1,0 +1,10 @@
+import MySQLdb
+con=MySQLdb.connect(host="localhost",user="root",password="root",db="employeedb")
+cur=con.cursor()
+empid=input("Enter empid ")
+email=input("Enter Employee mail ")
+result=cur.execute("update employee set Empemail=%s where Empid=%s",[email,empid])
+print(result, "records updated")
+cur.close()
+con.commit()
+con.close()
